@@ -14,8 +14,8 @@
     "integration-test": "start-server-and-test 'serve build -l 3000' http://localhost:3000 'cypress run'"
   },
   "dependencies": {
-    "@apeswapfinance/sdk": "1.0.3",
-    "@apeswapfinance/uikit": "^0.10.35",
+    "@apeswapfinance/sdk": "https://github.com/barbecueswap/sdk.git",
+    "@apeswapfinance/uikit": "https://github.com/barbecueswap/ape-uikit.git",
     "@crowdin/crowdin-api-client": "^1.8.16",
     "@ethersproject/experimental": "^5.0.1",
     "@pancakeswap-libs/uikit": "^0.10.3",
